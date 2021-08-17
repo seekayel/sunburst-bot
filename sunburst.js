@@ -1,7 +1,7 @@
 require('dotenv').config()
 const SunburstJS = require('sunburst.js')
 
-async function getPrediction(lat=40.7933949,lng=-77.8600012){
+async function getPrediction(lat=40,lng=-75){
   var sunburst = new SunburstJS();
 
   try {
